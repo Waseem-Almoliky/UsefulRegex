@@ -61,7 +61,14 @@ rgba\($1, $2, $3, \.$4\)
 Check yemeni phone numbers
 ---------------------------------------------------------------
 
-`/^(((\+|00)9677|0?7)[0137]\d{7}|((\+|00)967|0)[1-7]\d{6})$/`
+### for both cell phones/mobiles phones and land lines
+`/^(((\+|00)9677|0?7)[01378]\d{7}|((\+|00)967|0)[1-7]\d{6})$/`
+
+### for only cell phones/mobiles phones
+`^(((\+|00)9677|0?7)[01378]\d{7})$`
+
+### for only land lines
+`^(((\+|00)967|0)[1-7]\d{6})$`
 
 Check yemeni phone numbers.
 https://gist.github.com/Waseem-Almoliky/8aab02bdb8155a06cf5c2ef60fcdebea
