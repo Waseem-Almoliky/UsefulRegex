@@ -70,15 +70,9 @@ Check yemeni phone numbers
 ### for only land lines
 `^(((\+|00)967|0)[1-7]\d{6})$`
 
-Check yemeni phone numbers.
-https://gist.github.com/Waseem-Almoliky/8aab02bdb8155a06cf5c2ef60fcdebea
-
-
-
----------------------------------------------------------------
-`/^(((\+|00)9677|0?7)[0137]\d{0,7}|((\+|00)967|0)[1-7]\d{0,6})$/`
-
 Check yemeni phone numbers As you go (if you type true it's true if you miss with something it's false)
+
+https://gist.github.com/Waseem-Almoliky/8aab02bdb8155a06cf5c2ef60fcdebea
 
 
 
